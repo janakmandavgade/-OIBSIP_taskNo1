@@ -1,0 +1,54 @@
+/* GLOBAL */
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+}
+h1{
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+}
+
+ /* APPLICATION */
+.calculette{
+    text-align: center;
+    margin: auto;
+    width:25%;
+    border: 5px black;
+    border-radius: 5px;
+    background-color: #f5e9e9;
+}
+
+/* ÉCRAN */
+div.ecranDAffichage{
+    text-align: center;
+    margin-top: 15px;
+    min-height: 40px;
+    height: 100%;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px
+}
+
+/* CLAVIER */
+button.keyboard{
+    font-weight: 600;
+    border: 2px solid #666;
+    text-align: center;
+    padding-inline: 0.70rem;
+    margin: auto;
+}
+button.keyboardBleu{
+    font-weight: 600;
+    border: 2px solid blue;
+    text-align: center;
+    padding-inline: 0.70rem;
+    margin: auto;
+}
+button.keyboardRouge{
+    margin: auto;
+    font-weight: 600;
+    border: 2px solid red;
+    text-align: center;
+    padding-inline: 0.70rem;
+}
